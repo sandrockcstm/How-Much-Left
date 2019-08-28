@@ -10,6 +10,8 @@ When you change your current count for your quota, a progress bar will fill up s
 HML is currently command-line-only.  A GUI may be built at a later date.
 
 ## Setup
+You'll need to have Python 3.7.3 installed (Previous versions of Python may work but have not been tested at this time).  Go [here](https://www.python.org/downloads/) to download. You'll also need to download "progress" in order to run HML.  In the command line type `pip install progress`.  Once that has finished, download the latest version of HML by clicking "clone or download" on the github page or going to the "release" tab and getting the newest version.  
+
 Once you have downloaded HML, navigate to the folder you've downloaded it to and type `python3 HML.py new`.  If this is your first time running it, it will ask to initialize the quota database.  Type "yes" to do that.  Afterwards it will take you through the process of setting up your quota by asking for the name of the quota, how many times you've done it already, and how many times it still needs to be done.
 
 You will need to keep the quota.db file in the same folder as HML.py.
